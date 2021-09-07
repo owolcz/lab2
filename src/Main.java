@@ -2,16 +2,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* cw.1 pętle while */
+        /* przykład.2 pętle for */
 
-        /* zad 1 - Napisać za pomocą pętli do-while kod który będzie iterował od liczby 1000 w dół do 0.
-         * Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indexu (podać nr indexu)
-         * to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik) */
+        /* przykładowa pętla */
+        for (int i = 0; i < 10; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println("\n");
 
+        int i = 5;
+        for (; i > 0; ) {
+            System.out.print(i + " ");
+            i--;
+        }
 
-
-        /* zad 2 - stworzyć tablicę typu int wielkosci 10, przypisac jej dowolne wartości,
-         * przeiterować tablicę po elementach i wyswietlić */
+        /* Przykład z tablicą */
+        System.out.println("\n");
+        String[] tab = new String[]{"Ala", "ma", "kota"};
+        for (int j = 0; j < tab.length; j++) {
+            System.out.print(tab[j] + " ");
+        }
 
     }
 }
