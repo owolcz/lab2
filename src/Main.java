@@ -23,5 +23,10 @@ public class Main {
             System.out.print(tab[j] + " ");
         }
 
+        System.out.println("\n");
+        for (String zmienna : tab) {
+            System.out.print(zmienna + " ");
+        }
+
     }
 }
