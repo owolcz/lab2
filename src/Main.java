@@ -24,7 +24,7 @@ public class Main {
         }
 
         /* przykład forEach */
-        String[] tablica = new String[]{"Ala", "ma", "kota"};
+        String[] tablica = new String[]{"To", "jest", "moja", "tablica"};
         System.out.println("\n");
         for (String zmienna : tablica) {
             System.out.print(zmienna + " ");
