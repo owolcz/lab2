@@ -30,5 +30,17 @@ public class Main {
             System.out.print(zmienna + " ");
         }
 
+        /* Przykład forEach
+         * toCharArray() - zamienia napis (String) na tablicę typu char[] (tworzymy tablicę znakową ze stringa)
+         * return powoduje zakończenie metody (wyjście z funkcji) */
+        String napis = "abcdefg xyz";
+        for (char znak : napis.toCharArray()) {
+            if (znak == 'z') {
+                System.out.println("z");
+                return;
+            }
+            System.out.print(znak + "-");
+        }
+
     }
 }
