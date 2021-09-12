@@ -23,8 +23,10 @@ public class Main {
             System.out.print(tab[j] + " ");
         }
 
+        /* przykład forEach */
+        String[] tablica = new String[]{"Ala", "ma", "kota"};
         System.out.println("\n");
-        for (String zmienna : tab) {
+        for (String zmienna : tablica) {
             System.out.print(zmienna + " ");
         }
 
