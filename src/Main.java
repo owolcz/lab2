@@ -5,7 +5,7 @@ public class Main {
         /* ćw.2 pętle for */
 
         /* zad.1 Napisz program który będzie iterował od 100 do 0,
-         *  i wyświetlał liczby które są podzielne przez ostatnią liczbę waszego indeksu
+         *  i wyświetlał liczby które są podzielne przez ostatnią cyfrę waszego indeksu
          * (jesli 0 to przez 2 ostatnie) */
 
 
