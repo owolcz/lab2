@@ -6,13 +6,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* ćwiczenie 3 switch case */
+        /* przykład continue break */
 
-        /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
-         * i za pomocą switch case default ma określić czy ta liczba jest parzysta */
+        /* przykład użycia continue */
+        for (int i = 0; i <= 10; i++) {
+            if (i % 3 == 0)
+                continue;
+            System.out.print(i + " ");
+        }
 
-        /* zad.2 napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x' , 'z'
-         *  w wyrazie "ooooozoooxoooozoooooooooozoxoooooppppoooooooozooooxooooozooooooozoooxoooozooooxooooooooooopxooooooo" */
+        System.out.println("\n");
+
+        /* przykła użycia break */
+        for (int i = 0; i <= 100; i++) {
+            if (i == 22)
+                break;
+            System.out.print(i + " ");
+        }
+
+        System.out.println("\n");
+
+        /* przykła użycia return */
+        for (int i = 0; i <= 100; i++) {
+            if (i == 33)
+                return;
+            System.out.print(i + " ");
+        }
 
     }
 }
