@@ -6,60 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* Przykład 3 switch case */
+        /* ćwiczenie 3 switch case */
 
-        /* proste użycie switch case i default */
-        int a = 2;
-        switch (a) {
-            case 2:
-                System.out.println("warunek spełniony");
-                break;
-            default:
-                System.out.println("warunek niespełniony");
-                break;
-        }
-        /* wiele case-ow */
-        Scanner scan = new Scanner((System.in));
-        System.out.print("Podaj liczbę (0 - 5): ");
-        switch (scan.nextInt()) {
-            case 0:
-                System.out.println("Zero");
-                break;
-            case 1:
-                System.out.println("Jeden");
-                break;
-            case 2:
-                System.out.println("Dwa");
-                break;
-            case 3:
-                System.out.println("Trzy");
-                break;
-            case 4:
-                System.out.println("Cztery");
-                break;
-            default:
-                System.out.println("Pięć");
-                break;
-        }
+        /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
+         * i za pomocą switch case default ma określić czy ta liczba jest parzysta */
 
-        /* Switch case często używany jest z pętlą, gdzie case-y działają jak else if() */
-        String text = "aabaacbbaa";
-        int[] tablica = {0, 0, 0};
-        for (char zmiennaChar : text.toCharArray()) {
-            switch (zmiennaChar) {
-                case 'a':
-                    ++tablica[0];
-                    break;
-                case 'b':
-                    ++tablica[1];
-                    break;
-                case 'c':
-                    ++tablica[2];
-                    break;
-            }
-        }
-        System.out.printf("\nLiczba występuje\na: %d - razy\nb: %d - razy\nc: %d - razy",
-                tablica[0], tablica[1], tablica[2]);
+        /* zad.2 napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x' , 'z'
+         *  w wyrazie "ooooozoooxoooozoooooooooozoxoooooppppoooooooozooooxooooozooooooozoooxoooozooooxooooooooooopxooooooo" */
 
     }
 }
