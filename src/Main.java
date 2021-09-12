@@ -9,10 +9,14 @@ public class Main {
         /* ćwiczenie 3 switch case */
 
         /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
-         * i za pomocą switch case default ma określić czy ta liczba jest parzysta */
+          i za pomocą switch case default ma określić czy ta liczba jest parzysta
+         */
 
-        /* zad.2 napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x' , 'z'
-         *  w wyrazie "ooooozoooxoooozoooooooooozoxoooooppppoooooooozooooxooooozooooooozoooxoooozooooxooooooooooopxooooooo" */
+        /* zad.2
+           a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
+            "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
+           b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
+         */
 
     }
 }
