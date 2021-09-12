@@ -4,74 +4,30 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        /* przykład 5 Metody */
-        /* wywołanie metod */
-        metoda1();
-        metoda1(5);
-        metoda1(6, "JAVA");
-        metoda2("JAVA");
+        /* ćwiczenie 5 Metody */
 
-        System.out.println(metoda3());
-        System.out.println(metod4(8));
+        /* zad.1
+        a) stworzyć tablicę typu int[20],
+        b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20,
+        c) napisać metodę, która wypisze otrzymane wartości,
+        */
 
-        int[] tablica1 = metod5(18);
-        metoda2(tablica1);
-        System.out.println("\n");
+        /* zad.2
+        a) stworzyc tablicę typu String[6],
+        b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
+            (użyć do tego pętli i klasy Scanner),
+        c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
+        */
 
-//        int[] tablica2 = metod5(18);
-        metoda2(metod5(18, 19));
-    }
+        /* zad.3
+        a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
+            wyświetla w konsoli string który ma być waszym imieniem,
+        b) napisać metodę o tej samej nazwie jak w punkcie a) z 2-ma parametrami typu String, która wyświetli
+            wasze imie i nazwisko,
+        c) napisać metodę o tej samej nazwie jak w punkcie a) i b) która przyjmuje wasze imie,
+            nazwisko i wiek (int), a następnie wszystko wyświetli,
+        */
 
-    /* metody typu void */
-    public static void metoda1() {
-        System.out.println("To jest metoda 1");
-    }
-
-    public static void metoda1(int zmienna) {
-        System.out.println("To jest metoda 1 z parametrem: " + zmienna);
-    }
-
-    public static void metoda1(int zmienna, String text) {
-        System.out.println("To jest metoda 1 z parametrem: " + zmienna + " i tekst: " + text);
-    }
-
-    public static void metoda2(String text) {
-        for (int zmienna : text.toCharArray()) {
-            System.out.print(zmienna + " "); // wyświetla numer liter w kodzie ASCII
-        }
-    }
-
-    public static void metoda2(int[] tab) {
-        for (int zmienna : tab) {
-            System.out.print(zmienna + " "); // wyświetla numer liter w kodzie ASCII
-        }
-    }
-
-    /* metody zwracające wartość */
-    public static String metoda3() {
-        return "\nText metody";
-    }
-
-    public static int metod4(int zmienna) {
-        System.out.print("To jest metoda 4 - ");
-        return zmienna + 7;
-    }
-
-    public static int[] metod5(int zmienna) {
-        int[] tab = new int[zmienna];
-        for (int i = 0; i < zmienna; i++) {
-            tab[i] = i;
-        }
-        return tab;
-    }
-
-    public static int[] metod5(int zmienna1, int zmienna2) {
-        int max = zmienna1 > zmienna2 ? zmienna1 : zmienna2;
-        int[] tab = new int[max];
-        for (int i = 0; i < max; i++) {
-            tab[i] = i;
-        }
-        return tab;
     }
 
 }
