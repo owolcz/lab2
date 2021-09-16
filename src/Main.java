@@ -10,13 +10,16 @@ public class Main {
         */
 
 
-        /* zad 2 - stworzyć tablicę typu int wielkosci 10, przypisac jej dowolne wartości,
+        /* zad 2
+        a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
+        b) jak wyżej tylko dla tablicy typu double[],
+        c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
         /* zad.3
-        a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true ----> while(true)
-        b) sprawdzić jak wyżej dla for (;true;)
+        a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
+        b) a jak gdy damy false --> while(false)
         */
 
     }
