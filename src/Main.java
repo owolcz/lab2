@@ -9,7 +9,9 @@ public class Main {
         /* ćwiczenie 3 switch case */
 
         /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
-          i za pomocą switch case default ma określić czy ta liczba jest parzysta
+          i za pomocą switch case default ma określić czy:
+          a) ta liczba jest parzysta --> podpowiedz switch(a % 2) {
+          b) program który określi czy liczba jest podzielna przez 7
          */
 
         /* zad.2
