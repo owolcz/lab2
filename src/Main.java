@@ -13,7 +13,9 @@ public class Main {
                 elementów i elementami mają być nazwy zwierząt.
                 b) proszę stworzyć metodę która będzie miała pętle forEach i będzie wyświetlała elementy Listy
                 -- podpowiedź: for(String zmienna : List<String>)
-                c) następnie proszę wykonać odwrotne sortowanie i znów użyć metody z punktu b) do wyświetlenia
+                c) proszę usunąć 2 ostatnie elementy listy i dodać do niej 3 inne elementy,
+                następnie wyświetlić listę i wielkość listy,
+                d) następnie proszę wykonać odwrotne sortowanie i znów użyć metody z punktu b) do wyświetlenia
                 elementów listy
           */
 
