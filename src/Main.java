@@ -20,5 +20,6 @@ public class Main {
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
 
+
     }
 }
