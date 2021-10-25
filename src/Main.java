@@ -25,7 +25,6 @@ public class Main {
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
 
-
     }
 
 }
