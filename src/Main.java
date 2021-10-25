@@ -10,5 +10,6 @@ public class Main {
         c) w trzeciej pętli return
         */
 
+
     }
 }
