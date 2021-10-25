@@ -37,6 +37,7 @@ public class Main {
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
 
+
     }
 
 }
