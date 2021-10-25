@@ -22,5 +22,6 @@ public class Main {
         b) a jak gdy damy false --> while(false)
         */
 
+
     }
 }
