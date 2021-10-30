@@ -14,6 +14,7 @@ public class Main {
           b) program który określi czy liczba jest podzielna przez 7
          */
 
+
         System.out.println("Zadanie 1: ");
         System.out.println("a) ");
         System.out.println("Podaj liczbę: ");
@@ -50,6 +51,9 @@ public class Main {
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
 
+
+        System.out.println("\n");
+        System.out.println("Zadanie 2: ");
 
     }
 }
