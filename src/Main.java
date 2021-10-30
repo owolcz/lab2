@@ -26,5 +26,14 @@ public class Main {
         }
 
 
+        System.out.println("\n");
+        System.out.println("c) ");
+        for (int i = 0; i <= 100; i++) {
+            if (i >= 50)
+                return;
+            System.out.print(i + " ");
+        }
+
+
     }
 }
