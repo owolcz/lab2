@@ -9,6 +9,7 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+        System.out.println("Zadanie 1:");
         int i = 1000;
         int index = 42;
         do {
@@ -33,6 +34,21 @@ public class Main {
         b) jak wyżej tylko dla tablicy typu double[],
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
+
+        System.out.println("Zadanie 2: ");
+        System.out.println("a) ");
+
+        int[] tab1 = {1, 2, 4, 7, 9};
+        for (int x : tab1) {
+            System.out.print(x + ", ");
+        }
+
+        System.out.println("b) ");
+        double[] tab2 = {1.5, 2.7, 4.9, 7.13, 9.3131};
+        for (double y : tab2) {
+            System.out.print(y + ", ");
+        }
+
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
