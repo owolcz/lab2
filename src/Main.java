@@ -9,6 +9,21 @@ public class Main {
         b) w drugiej pętli continue
         c) w trzeciej pętli return
         */
+        System.out.println("Zadanie 1: ");
+        System.out.println("a) ");
+        for (int i = 0; i <= 250; i++) {
+            if (i == 190)
+                break;
+            System.out.print(i + " ");
+        }
+
+        System.out.println("\n");
+        System.out.println("b) ");
+        for (int i = 0; i <= 25; i++) {
+            if (i % 2 == 0)
+                continue;
+            System.out.print(i + " ");
+        }
 
 
     }
