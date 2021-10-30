@@ -56,7 +56,7 @@ public class Main {
         System.out.println("Zadanie 2: ");
 
         String text = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
-        int[] tablica = {0, 0, 0, 0, 0};
+        int[] tablica = {0, 0, 0, 0, 0, 0};
         for (char zmiennaChar : text.toCharArray()) {
             switch (zmiennaChar) {
                 case 'o':
@@ -75,6 +75,10 @@ public class Main {
 
                 case 'q':
                     ++tablica[4];
+                    break;
+
+                deafult :
+                    ++tablica[5];
                     break;
             }
         }
