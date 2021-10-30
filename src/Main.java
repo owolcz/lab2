@@ -9,6 +9,14 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+        do {
+
+
+        }
+
+
+
+
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
