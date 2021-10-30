@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
@@ -9,19 +10,13 @@ public class Main {
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
         System.out.println("Zadanie 1:");
-        int i = 100;
         int index = 62642;
         int last2IndexDigits = index % 100;
         System.out.println(last2IndexDigits);
 
 
-        for(, i >0 , i --)
+        for( int i = 100; i >0 ; i --)
         {
-
-        }
-
-
-        do {
             System.out.println("i: " + i);
             if (i % last2IndexDigits == 0){
 
@@ -29,7 +24,7 @@ public class Main {
 
 
             }
-        } while (--i > 0);
+        }
 
 
 
@@ -37,6 +32,20 @@ public class Main {
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
 
+
+        Scanner input = new Scanner(System.in);
+        int[] numbers = new int[5];
+
+        for (int i = 0; i < numbers.length; i++)
+        {
+            System.out.println("Please enter number");
+            numbers[i] = input.nextInt();
+        }
+        for (int i=0; i < 5; i++)
+        {
+
+            System.out.println(numbers[i]);
+        }
 
     }
 }
