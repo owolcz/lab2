@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -42,22 +44,32 @@ public class Main {
         System.out.println("a) ");
 
         int[] tab1 = {1, 2, 4, 7, 9};
-        for (int x : tab1) {
-            System.out.print(x + ", ");
+        int x = 0;
+        while (x < tab1.length) {
+            int num = tab1[x];
+            System.out.println(num);
+            x++;
         }
 
         System.out.println("\n");
         System.out.println("b) ");
-        double[] tab2 = {1.5, 2.7, 4.9, 7.13, 9.3131};
-        for (double y : tab2) {
-            System.out.print(y + ", ");
+
+        double[] tab2 = {1.5, 2.1231, 4.123, 7.5, 9.69};
+        int y = 0;
+        while (y < tab2.length) {
+            double num2 = tab2[y];
+            System.out.println(num2);
+            y++;
         }
 
         System.out.println("\n");
         System.out.println("c) ");
         String[] tab3 = {"Audi", "BMW", "Mercedes", "Lexus", "Tesla"};
-        for (String z : tab3) {
-            System.out.print(z + ", ");
+        int z = 0;
+        while (z < tab3.length) {
+            String num3 = tab3[z];
+            System.out.println(num3);
+            z++;
         }
 
 
@@ -68,10 +80,11 @@ public class Main {
 
         System.out.println("\n\n");
         System.out.println("Zadanie 3: ");
-        while(true)
-        {
-            System.out.println("Infinite loop");
-        }
+
+//        while(true)
+//        {
+//            System.out.println("Infinite loop");
+//        }
         //Pętla while(true) jest pętlą nieskończoną
 
 
