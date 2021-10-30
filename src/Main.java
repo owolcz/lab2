@@ -9,10 +9,12 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+        int i = 1000;
+        System.out.println("\n");
         do {
+            System.out.println("i: " + i);
+        } while (--i > 0);
 
-
-        }
 
 
 
