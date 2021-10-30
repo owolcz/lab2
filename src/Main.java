@@ -19,9 +19,40 @@ public class Main {
         System.out.println("Podaj liczbę: ");
         Scanner scan = new Scanner(System.in);
         int a= scan.nextInt();
+        switch (a % 2){
 
-        case
+            case 0:
+                System.out.println("Parzysta");
 
+            default:
+                System.out.println("Nieparzysta");        }
+
+
+
+
+
+//                Scanner scan = new Scanner((System.in));
+//        System.out.print("Podaj liczbę (0 - 5): ");
+//        switch (scan.nextInt()) {
+//            case 0:
+//                System.out.println("Zero");
+//                break;
+//            case 1:
+//                System.out.println("Jeden");
+//                break;
+//            case 2:
+//                System.out.println("Dwa");
+//                break;
+//            case 3:
+//                System.out.println("Trzy");
+//                break;
+//            case 4:
+//                System.out.println("Cztery");
+//                break;
+//            default:
+//                System.out.println("Pięć");
+//                break;
+//        }
         /* zad.2
            a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
