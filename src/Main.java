@@ -13,6 +13,23 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
+        metoda1();
+        metoda1(5);
+        metoda1(6, "JAVA");
+        metoda2("JAVA");
+
+        System.out.println(metoda3());
+        System.out.println(metod4(8));
+
+        int[] tablica1 = metod5(18);
+        metoda2(tablica1);
+        System.out.println("\n");
+
+//        int[] tablica2 = metod5(18);
+        metoda2(metod5(18, 19));
+    }
+
+
         System.out.println("Zadanie 1: ");
 
 
