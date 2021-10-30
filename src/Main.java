@@ -23,36 +23,27 @@ public class Main {
 
             case 0:
                 System.out.println("Parzysta");
-
+                break;
             default:
-                System.out.println("Nieparzysta");        }
+                System.out.println("Nieparzysta");
+                break;
+        }
+
+        System.out.println("\n");
+        System.out.println("b) ");
+        switch (a % 7){
+
+            case 0:
+                System.out.println("Podzielna przez 7");
+                break;
+            default:
+                System.out.println("Nie podzielna przez 7");
+                break;
+        }
 
 
 
 
-
-//                Scanner scan = new Scanner((System.in));
-//        System.out.print("Podaj liczbę (0 - 5): ");
-//        switch (scan.nextInt()) {
-//            case 0:
-//                System.out.println("Zero");
-//                break;
-//            case 1:
-//                System.out.println("Jeden");
-//                break;
-//            case 2:
-//                System.out.println("Dwa");
-//                break;
-//            case 3:
-//                System.out.println("Trzy");
-//                break;
-//            case 4:
-//                System.out.println("Cztery");
-//                break;
-//            default:
-//                System.out.println("Pięć");
-//                break;
-//        }
         /* zad.2
            a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
