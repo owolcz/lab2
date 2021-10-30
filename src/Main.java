@@ -66,6 +66,20 @@ public class Main {
         b) a jak gdy damy false --> while(false)
         */
 
+        System.out.println("\n\n");
+        System.out.println("Zadanie 3: ");
+        while(true)
+        {
+            System.out.println("Infinite loop");
+        }
+        //Pętla while(true) jest pętlą nieskończoną
+
+
+//        while(false)
+//        {
+//            System.out.println();
+//        }
+        //Pętla while(false) nie uruchomi nigdy kodu
 
     }
 }
