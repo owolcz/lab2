@@ -41,11 +41,12 @@ public class Main {
             System.out.println("Please enter number");
             numbers[i] = input.nextInt();
         }
-        for (int i=0; i < 5; i++)
-        {
 
-            System.out.println(numbers[i]);
+        for (int a  : numbers) {
+            System.out.println(a+ 11);
         }
+
+
 
     }
 }
