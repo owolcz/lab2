@@ -17,6 +17,7 @@ public class Main {
 
                 System.out.println("liczba " + i + " podzielna przez " + index);
 
+
             }
         } while (--i > 0);
 
