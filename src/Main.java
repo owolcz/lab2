@@ -17,6 +17,10 @@ public class Main {
 
 
 
+        public static void metoda1(int zmienna) {
+            System.out.println("To jest metoda 1 z parametrem: " + zmienna);
+        }
+
         /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
