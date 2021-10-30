@@ -14,6 +14,14 @@ public class Main {
           b) program który określi czy liczba jest podzielna przez 7
          */
 
+        System.out.println("Zadanie 1: ");
+        System.out.println("a) ");
+        System.out.println("Podaj liczbę: ");
+        Scanner scan = new Scanner(System.in);
+        int a= scan.nextInt();
+
+        case
+
         /* zad.2
            a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
