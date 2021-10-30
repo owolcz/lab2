@@ -11,12 +11,15 @@ public class Main {
 
         System.out.println("Zadanie 1:");
         int i = 1000;
-        int index = 42;
+        int index = 62642;
+        int last2IndexDigits = index % 100;
+        System.out.println(last2IndexDigits);
+
         do {
             System.out.println("i: " + i);
-            if (i % index == 0){
+            if (i % last2IndexDigits == 0){
 
-                System.out.println("liczba " + i + " podzielna przez " + index);
+                System.out.println("liczba " + i + " podzielna przez " + last2IndexDigits);
 
 
             }
@@ -34,7 +37,7 @@ public class Main {
         b) jak wyżej tylko dla tablicy typu double[],
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
-
+        System.out.println("\n\n");
         System.out.println("Zadanie 2: ");
         System.out.println("a) ");
 
@@ -43,10 +46,18 @@ public class Main {
             System.out.print(x + ", ");
         }
 
+        System.out.println("\n");
         System.out.println("b) ");
         double[] tab2 = {1.5, 2.7, 4.9, 7.13, 9.3131};
         for (double y : tab2) {
             System.out.print(y + ", ");
+        }
+
+        System.out.println("\n");
+        System.out.println("c) ");
+        String[] tab3 = {"Audi", "BMW", "Mercedes", "Lexus", "Tesla"};
+        for (String z : tab3) {
+            System.out.print(z + ", ");
         }
 
 
