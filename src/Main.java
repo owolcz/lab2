@@ -10,10 +10,16 @@ public class Main {
         */
 
         int i = 1000;
-        System.out.println("\n");
+        int index = 42;
         do {
             System.out.println("i: " + i);
+            if (i % index == 0){
+
+                System.out.println("liczba " + i + " podzielna przez " + index);
+
+            }
         } while (--i > 0);
+
 
 
 
