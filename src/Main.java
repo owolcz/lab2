@@ -13,6 +13,10 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
+        System.out.println("Zadanie 1: ");
+
+
+
         /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
