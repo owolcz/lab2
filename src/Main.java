@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -13,10 +14,6 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
-        int[] tablica1 = metod5(18);
-        metoda2(tablica1);
-        System.out.println("\n");
-
     }
 
 
@@ -24,8 +21,18 @@ public class Main {
 
 
 
-        public static void metoda1(int zmienna) {
-            System.out.println("To jest metoda 1 z parametrem: " + zmienna);
+        public static void UzupelnijTablice(int zmienna) {
+            Scanner input = new Scanner(System.in);
+            int[] numbers = new int[20];
+            for (int i = 0; i < numbers.length; i++)
+            {
+                System.out.println("Please enter number");
+                numbers[i] = input.nextInt();
+            }
+
+            for (int a  : numbers) {
+                System.out.println(a+ 11);
+            }
         }
 
         /* zad.2
