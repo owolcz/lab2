@@ -54,7 +54,7 @@ public class Main {
 
         System.out.println("\n");
         System.out.println("Zadanie 2: ");
-
+        System.out.println("W slowię 'ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo'");
         String text = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
         int[] tablica = {0, 0, 0, 0, 0, 0};
         for (char zmiennaChar : text.toCharArray()) {
@@ -82,7 +82,7 @@ public class Main {
                     break;
             }
         }
-        System.out.printf("\nLiczba występuje\no: %d - razy\np: %d - razy\nx: %d - razy\nz: %d - razy\nq: %d - razy",
+        System.out.printf("\nLitera występuje\no: %d - razy\np: %d - razy\nx: %d - razy\nz: %d - razy\nq: %d - razy",
                 tablica[0], tablica[1], tablica[2], tablica[3], tablica[4]);
         System.out.printf("\nLiczba pozostałych znaków\n: %d", tablica[5]);
     }
