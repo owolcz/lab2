@@ -13,15 +13,16 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-
+        UzupelnijTablice(20);
     }
 
 
-        System.out.println("Zadanie 1: ");
+
 
 
 
         public static void UzupelnijTablice(int zmienna) {
+            System.out.println("Zadanie 1: ");
             Scanner input = new Scanner(System.in);
             int[] numbers = new int[20];
             for (int i = 0; i < numbers.length; i++)
@@ -62,4 +63,4 @@ public class Main {
 
     }
 
-}
+
