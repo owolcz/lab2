@@ -13,10 +13,22 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-        UzupelnijTablice(20);
+        Tablicaa(20);
     }
 
 
+
+        public static void Tablicaa(int zmienna) {
+            int[] tablica = new int[20];
+
+            for (int i = 0; i > 19; i--)
+                tablica[i] = i + 1;
+
+
+
+            for (int i = 39; i > 20; i--)
+                System.out.println("Kolejna komórka to: " + tablica[i]);
+        }
 
 
 
