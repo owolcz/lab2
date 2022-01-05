@@ -3,6 +3,8 @@ import java.math.BigInteger;
 import java.util.*;
 import java.util.Scanner;
 
+import static java.util.Collections.*;
+
 public class Main {
     static Scanner scan;
     public static void main(String[] args) {
@@ -21,14 +23,47 @@ public class Main {
           */
 
         scan=new Scanner(System.in);
-        ArrayList<String> num=new ArrayList<>();
+        ArrayList<String> Zwierzaki =new ArrayList<>();
 
 
         for(int i=1; i <=5; i++){
            System.out.println("Podaj nazwę zwierzaka: ");
-            num.add(scan.nextLine());
+            Zwierzaki.add(scan.nextLine());
         }
-        System.out.println("" + num);
+
+
+        for (String x : Zwierzaki) {
+            System.out.print(x + ", ");
+        }
+        System.out.println();
+
+        System.out.println("c)");
+        Zwierzaki.remove(3);
+
+        Zwierzaki.remove(3);
+
+        Zwierzaki.add("Goryl");
+
+        Zwierzaki.add("Orzeł");
+
+        Zwierzaki.add("Wąż");
+
+
+        for (String x : Zwierzaki) {
+            System.out.print(x + ", ");
+        }
+        System.out.println();
+        System.out.println("Rozmiar listy to: "+Zwierzaki.size());
+
+        System.out.println("D) Odwrotne sortowanie: ");
+        Zwierzaki.sort(reverseOrder());
+        for (String x : Zwierzaki) {
+            System.out.print(x + ", ");
+        }
+        System.out.println();
+
+
+
 
 
 
@@ -37,6 +72,26 @@ public class Main {
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
 
+
+        System.out.println("Zadanie 2) ");
+        scan=new Scanner(System.in);
+        Set<Integer> Liczby = new TreeSet<>();
+
+
+        for(int i=1; i <=10; i++){
+            System.out.println("Podaj liczbę: ");
+            Liczby.add(scan.nextInt());
+        }
+
+        System.out.println("Zawartość seta: " + Liczby);
+
+        for (Integer x : Liczby) {
+            System.out.print(x + ", ");
+        }
+        System.out.println();
+
     }
+
+
 
 }
