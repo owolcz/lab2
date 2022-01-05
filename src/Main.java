@@ -13,21 +13,21 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-        Tablicaa(20);
+        Tablicaa();
     }
 
 
 
-        public static void Tablicaa(int zmienna) {
+        public static void Tablicaa() {
             int[] tablica = new int[20];
 
-            for (int i = 0; i > 19; i--)
+            for (int i = 0; i < 20 ; i++)
                 tablica[i] = i + 1;
 
+            int co = tablica[10];
 
 
-            for (int i = 39; i > 20; i--)
-                System.out.println("Kolejna komórka to: " + tablica[i]);
+                System.out.println("Kolejna komórka to: " + tablica[20]);
         }
 
 
