@@ -13,12 +13,21 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-        metod5(20);
+
+        TablicaString();
+//        metoda2(metod5());
     }
 
-    public static int[] metod5(int zmienna) {
-        int[] tab = new int[zmienna];
-        for (int i = 0; i < zmienna; i++) {
+    public static void metoda2(int[] tab) {
+        for (int zmienna : tab) {
+            System.out.print(zmienna + " "); // wyświetla numer liter w kodzie ASCII
+        }
+    }
+
+
+    public static int[] metod5() {
+        int[] tab = new int[20];
+        for (int i = 19; i > 0; i--) {
             tab[i] = i;
         }
         return tab;
@@ -61,6 +70,20 @@ public class Main {
         c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
         */
 
+
+        public static void TablicaString(){
+            Scanner input = new Scanner(System.in);
+            String[] tekst = new String[6];
+            for (int i = 0; i < tekst.length; i++)
+            {
+                System.out.println("Please enter text");
+                tekst[i] = String.valueOf(input.nextInt());
+            }
+
+
+
+        }
+
         /* zad.3
         a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
             wyświetla w konsoli string który ma być waszym imieniem,
@@ -69,6 +92,9 @@ public class Main {
         c) napisać metodę o tej samej nazwie jak w punkcie a) i b) która przyjmuje wasze imie,
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
+
+
+
 
         /* zad.4
         a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
