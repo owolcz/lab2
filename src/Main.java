@@ -13,10 +13,16 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-        Tablicaa();
+        metod5(20);
     }
 
-
+    public static int[] metod5(int zmienna) {
+        int[] tab = new int[zmienna];
+        for (int i = 0; i < zmienna; i++) {
+            tab[i] = i;
+        }
+        return tab;
+    }
 
         public static void Tablicaa() {
             int[] tablica = new int[20];
