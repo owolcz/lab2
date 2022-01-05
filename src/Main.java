@@ -1,9 +1,10 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
+import java.util.Scanner;
 
 public class Main {
-
+    static Scanner scan;
     public static void main(String[] args) {
 
         /* ćw_6 Listy */
@@ -18,6 +19,17 @@ public class Main {
                 d) następnie proszę wykonać odwrotne sortowanie i znów użyć metody z punktu b) do wyświetlenia
                 elementów listy
           */
+
+        scan=new Scanner(System.in);
+        ArrayList<String> num=new ArrayList<>();
+
+
+        for(int i=1; i <=5; i++){
+           System.out.println("Podaj nazwę zwierzaka: ");
+            num.add(scan.nextLine());
+        }
+        System.out.println("" + num);
+
 
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
