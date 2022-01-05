@@ -14,8 +14,16 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
-        TablicaString();
+//        TablicaString();
 //        metoda2(metod5());
+
+
+
+        Imie("Oskar");
+        Imie("Oskar", "Wołcz");
+        Imie("Oskar", "Wołcz", 22);
+
+        sumInt(20);
     }
 
     public static void metoda2(int[] tab) {
@@ -93,6 +101,17 @@ public class Main {
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
 
+    public static void Imie(String imie) {
+        System.out.println("a) Moje imię: " + imie);
+    }
+
+    public static void Imie(String imie, String nazwisko) {
+        System.out.println("b) Moje imię oraz nazwisko: " + imie + " " + nazwisko);
+    }
+
+    public static void Imie(String imie, String nazwisko, int wiek) {
+        System.out.println("c) Moje imię oraz nazwisko i wiek: " + imie + " " + nazwisko + " " + wiek);
+    }
 
 
 
@@ -104,7 +123,11 @@ public class Main {
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
 
-
+    static int sumInt(int n) {
+        if (n == 0)
+            return 0;
+        return (n % 10 + sumInt(n / 10));
     }
+}
 
 
