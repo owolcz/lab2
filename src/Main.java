@@ -17,17 +17,16 @@ public class Main {
             int[] tablica1 = metod5(20);
             metoda2(tablica1);
             System.out.println("\n");
-//
-//
-//
-//            System.out.println("Zadanie 2: ");
-//            TablicaString();
-//
-//
-//            System.out.println("Zadanie 3: ");
-//            Imie("Oskar");
-//            Imie("Oskar", "Wołcz");
-//            Imie("Oskar", "Wołcz", 22);
+
+
+            System.out.println("Zadanie 2: ");
+            TablicaString(6);
+
+
+            System.out.println("Zadanie 3: ");
+            Imie("Oskar");
+            Imie("Oskar", "Wołcz");
+            Imie("Oskar", "Wołcz", 22);
 
 //            int[] zmiennaA = metoda6(5, 5);
 //            metod4(zmien)
@@ -36,19 +35,20 @@ public class Main {
 
 
             //Zadanie 1
-            public static int[] metod5(int zmienna) {
-                int[] tab = new int[zmienna];
-                for (int i = 40; i >= 20; i--) {
-                    tab[i - 40] = i;
+                public static int[] metod5(int zmienna) {
+                    int[] tab;
+                    tab = new int[zmienna + 1];
+                    for (int i = zmienna + zmienna; i >= zmienna; i--) {
+                        tab[zmienna + zmienna  - i] = i;
+                    }
+                    return tab;
                 }
-                return tab;
-            }
 
-            public static void metoda2(int[] tab) {
-                for (int zmienna : tab) {
-                    System.out.print(zmienna + " ");
+                public static void metoda2(int[] tab) {
+                    for(int i : tab) {
+                System.out.println(i);
+                    }
                 }
-            }
 
 
         /* zad.2
@@ -59,9 +59,9 @@ public class Main {
         */
 
         //Zadanie 2
-        public static void TablicaString(){
+        public static int[] TablicaString(int zmienna){
             Scanner input = new Scanner(System.in);
-            String[] tekst = new String[6];
+            String[] tekst = new String[zmienna];
 
             {
                 //wprowadzenie wartości
@@ -72,8 +72,11 @@ public class Main {
 
             //wyświetlenie
             for(int i=4; i>=0; i--)
-                System.out.println("element: "+ tekst[i]);
+                System.out.println("element "+ i +": "+ tekst[i]);
+            return new int[0];
         }
+
+
 
         /* zad.3
         a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
