@@ -62,7 +62,7 @@ public class Main {
         public static int[] TablicaString(int zmienna){
             Scanner input = new Scanner(System.in);
             String[] tekst = new String[zmienna];
-
+            System.out.println("Wpisz tekst: ");
             {
                 //wprowadzenie wartości
                 for(int i=0; i<5; i++)
