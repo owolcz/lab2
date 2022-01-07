@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Arrays;
 
 public class Main {
 
@@ -30,6 +29,14 @@ public class Main {
 
 //            int[] zmiennaA = metoda6(5, 5);
 //            metod4(zmien)
+
+            int sum = 0;
+            int zmiennaA = sumowanie(1, 3);
+            int zmiennaB = sumowanie(1,2,3);
+            sum = zmiennaA + zmiennaB;
+            System.out.println("Suma" + sum);
+
+//            System.out.print("Suma= " + sumowanie(5,5) + sumowanie(10,10,1));
 
         }
 
@@ -111,18 +118,30 @@ public class Main {
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
 
-            public static int[] metoda6(int zmienna1, int zmienna2) {
+//            public static int[] metoda6(int zmienna1, int zmienna2) {
+//                int suma = zmienna1 + zmienna2;
+//                int[] tab = new int[suma];
+//                for (int i = 0; i < suma; i++) {
+//                    tab[i] = i;
+//                }
+//                return tab;
+//            }
+//            public static int metod4(int zmienna) {
+//                System.out.print("To jest metoda 4 - ");
+//                return zmienna + 7;
+//            }
+    
+            public static int sumowanie(int zmienna1, int zmienna2){
                 int suma = zmienna1 + zmienna2;
-                int[] tab = new int[suma];
-                for (int i = 0; i < suma; i++) {
-                    tab[i] = i;
-                }
-                return tab;
+                return suma;
             }
-            public static int metod4(int zmienna) {
-                System.out.print("To jest metoda 4 - ");
-                return zmienna + 7;
+
+            public static int sumowanie(int zmienna1, int zmienna2, int zmienna3){
+                int suma = zmienna1 + zmienna2 + zmienna3;
+                return suma;
             }
+
+
 }
 
 
